@@ -40,6 +40,11 @@ typeof a;				// "boolean"
 a = null;
 typeof a;				// "object" -- weird, bug
 
+a = function square(x){ 
+	return x * x 
+    }
+typeof a;				// "function"
+
 a = undefined;
 typeof a;				// "undefined"
 
